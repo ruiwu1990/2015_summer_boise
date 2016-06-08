@@ -1,0 +1,39 @@
+{
+"nodes":[
+{ "name": ""   , "image" : "image/1_climate.png" , "inform" : "climate inform:"},
+{ "name": ""   , "image" : "image/2_precip.png" , "inform" : "precip inform:"},
+{ "name": ""   , "image" : "image/3_temp.png" , "inform" : "temp inform:"},
+{ "name": "" , "image" : "image/4_hydrology.png" , "inform" : "hydrology inform:"},
+{ "name": "" , "image" : "image/5_land_surface.png" , "inform" : "land surface inform:"},
+{ "name": "" , "image" : "image/6_fire.png" , "inform" : "fire inform:"},
+{ "name": "" , "image" : "image/7_vegetation.png" , "inform" : "vegetation inform:"},
+{ "name": ""   , "image" : "image/8_flow.png" , "inform" : "flow inform:"},
+{ "name": ""   , "image" : "image/9_water_temp.png" , "inform" : "water temp inform:"},
+{ "name": ""   , "image" : "image/10_diversions.png" , "inform" : "diversions inform:"},
+{ "name": "" , "image" : "image/11_fish.png" , "inform" : "fish inform:"},
+{ "name": "" , "image" : "image/12_human_happiness.png" , "inform" : "human happiness inform:"},
+{ "name": "" , "image" : "image/13_population.png" , "inform" : "population inform:"}
+],
+"edges":[
+{ "source": 0 , "target": 1 , "relation":"Fawn" },
+{ "source": 0 , "target": 2 , "relation":"Fawn" },
+{ "source": 1 , "target": 3 , "relation":"Scott" },
+{ "source": 1 , "target": 7 , "relation":"Scott" },
+{ "source": 2 , "target": 3 , "relation":"Scott" },
+{ "source": 2 , "target": 8 , "relation":"Savannah" },
+{ "source": 2 , "target": 5 , "relation":"Savannah" },
+{ "source": 2 , "target": 4 , "relation":"Savannah" },
+{ "source": 3 , "target": 7 , "relation":"Scott, Savannah" },
+{ "source": 3 , "target": 9 , "relation":"Scott" },
+{ "source": 3 , "target": 8 , "relation":"?" },
+{ "source": 3 , "target": 5 , "relation":"?" },
+{ "source": 4 , "target": 5 , "relation":"Savannah" },
+{ "source": 4 , "target": 11 , "relation":"Courtney" },
+{ "source": 5 , "target": 6 , "relation":"Savannah" },
+{ "source": 7 , "target": 9 , "relation":"Scott" },
+{ "source": 7 , "target": 10 , "relation":"Savannah" },
+{ "source": 8 , "target": 10 , "relation":"Teresa" },
+{ "source": 10 , "target": 11 , "relation":"Courtney" },
+{ "source": 12 , "target": 4 , "relation":"?" }
+]
+}

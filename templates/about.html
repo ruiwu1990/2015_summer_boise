@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- This template is from http://getbootstrap.com/examples/carousel/# -->
+<html lang="en">
+<!-- LOCAL STYLE
+================================================== -->
+<meta charset="utf-8">
+<style> /* set the CSS */
+.labeltext {
+	font-size: 16px ;
+	font-family: SimSun;
+	fill:#000000;
+}
+
+.nodetext {
+	font-size: 12px ;
+	font-family: SimSun;
+	fill:#000000;
+}
+
+.linetext {
+	font-size: 12px ;
+	font-family: SimSun;
+	fill:#0000FF;
+	fill-opacity:0.0;
+}
+
+p .flowChart {
+  font: bold 48px monospace;
+}
+
+text {
+  font: bold 48px monospace;
+}
+
+.enter {
+  fill: green;
+}
+
+.update {
+  fill: #333;
+}
+
+.exit {
+  fill: brown;
+}
+
+
+</style> 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Endangered Steelhead in the Lapwai Creek Watershed: An assessment of Sweetwater Creek diversions and fish health</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/indexImage.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- <script src="../../assets/js/ie-emulation-modes-warning.js"></script> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/carousel.css" rel="stylesheet">
+  </head>
+
+
+
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">Fish</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Visualization <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/lineChart">Model Output</a></li>
+                    <li><a href="/barChart">Bar Chart</a></li>
+                    <li><a href="/pieChart">Pie Chart</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Fancy visualization</li>
+                    <li><a href="#">Detailed Bar Chart</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Processing <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/data">Maximum</a></li>
+                    <li><a href="/data">Minimum</a></li>
+                    <li><a href="/data">Average</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Advanced processing</li>
+                    <li><a href="#">AA model</a></li>
+                    <li><a href="#">BB model</a></li>
+                  </ul>
+                </li>
+                <li><a href="/Help">Help</a></li>
+                <li><a href="/About">About</a></li>
+                <li><a href="/Contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+		<!-- About -->
+		<p>The Lapwai Creek Watershed has become a focus of cultural issues surrounding water quantity in the western U.S. Although not considered an area of significant economic impact, Lapwai Creek is encompassed almost entirely within the Nez Perce Reservation. The tribe considers both the steelhead that live and spawn in Lapwai Creek and the salmonid species in the rest of the basin sacred foods with significant value for physical sustenance and spiritual connection. The Nez Perce Treaty of 1855 guaranteed the Tribe exclusive rights to fishing within the streams running through or bordering the reserve. Often portrayed as a ‘wicked problem’ the current situation within this watershed is both complex and contentious. 
+		</p>
+		<p>The Lapwai Creek Watershed has become a focus of cultural issues surrounding water quantity in the western U.S. Although not considered an area of significant economic impact, Lapwai Creek is encompassed almost entirely within the Nez Perce Reservation. The tribe considers both the steelhead that live and spawn in Lapwai Creek and the salmonid species in the rest of the basin sacred foods with significant value for physical sustenance and spiritual connection. The Nez Perce Treaty of 1855 guaranteed the Tribe exclusive rights to fishing within the streams running through or bordering the reserve. Often portrayed as a ‘wicked problem’ the current situation within this watershed is both complex and contentious. 
+		</p>
+		<p>The Lapwai Creek Watershed has become a focus of cultural issues surrounding water quantity in the western U.S. Although not considered an area of significant economic impact, Lapwai Creek is encompassed almost entirely within the Nez Perce Reservation. The tribe considers both the steelhead that live and spawn in Lapwai Creek and the salmonid species in the rest of the basin sacred foods with significant value for physical sustenance and spiritual connection. The Nez Perce Treaty of 1855 guaranteed the Tribe exclusive rights to fishing within the streams running through or bordering the reserve. Often portrayed as a ‘wicked problem’ the current situation within this watershed is both complex and contentious. 
+		</p>
+
+		<p class = "flowChart"></p>
+		<p class = "informParagraph"></p>
+
+ 	  <!-- Chart PART -->
+	  <script src="http://d3js.org/d3.v3.min.js"></script>
+
+	  <script src='./static/js/about.js' type='text/javascript'></script>
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2015 Modeling. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+ </div><!-- /.container -->
+
+  
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../static/js/holder.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../static/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+{
+"nodes":[
+{ "name": "Dr.Link"   , "image" : "Link.png" , "email" : "tlink@uidaho.edu"},
+{ "name": "Teresa"   , "image" : "Teresa.png" , "email" : "tcampbs@gmail.com"},
+{ "name": "Scott"   , "image" : "Scott.png" , "email" : "sjfennema@uidaho.edu"},
+{ "name": "Fawn" , "image" : "Fawn.png" , "email" : "fbrooks@unm.edu"},
+{ "name": "Courtney" , "image" : "Courtney.png" , "email" : "coopercourtney1@gmail.com"},
+{ "name": "Savannah" , "image" : "Savannah.png" , "email" : "savannahmtz@gmail.com"},
+{ "name": "Rui" , "image" : "Rui.jpg" , "email" : "rui@cse.unr.edu"}
+],
+"edges":[
+{ "source": 0 , "target": 1 , "relation":"mentor" },
+{ "source": 0 , "target": 2 , "relation":"mentor" },
+{ "source": 0 , "target": 3 , "relation":"mentor" },
+{ "source": 0 , "target": 4 , "relation":"mentor" },
+{ "source": 0 , "target": 5 , "relation":"mentor" },
+{ "source": 0 , "target": 6 , "relation":"mentor" },
+{ "source": 1 , "target": 2 , "relation":"friends" },
+{ "source": 1 , "target": 3 , "relation":"friends" },
+{ "source": 1 , "target": 4 , "relation":"friends" },
+{ "source": 1 , "target": 5 , "relation":"friends" },
+{ "source": 1 , "target": 6 , "relation":"friends" },
+{ "source": 2 , "target": 3 , "relation":"friends" },
+{ "source": 2 , "target": 4 , "relation":"friends" },
+{ "source": 2 , "target": 5 , "relation":"friends" },
+{ "source": 2 , "target": 6 , "relation":"friends" },
+{ "source": 3 , "target": 4 , "relation":"friends" },
+{ "source": 3 , "target": 5 , "relation":"friends" },
+{ "source": 3 , "target": 6 , "relation":"friends" },
+{ "source": 4 , "target": 5 , "relation":"friends" },
+{ "source": 4 , "target": 6 , "relation":"friends" },
+{ "source": 5 , "target": 6 , "relation":"friends" }
+]
+}
